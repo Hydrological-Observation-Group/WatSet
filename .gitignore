@@ -1,0 +1,8 @@
+__pycache__/
+.DS_Store
+*/.DS_Store
+.vscode
+data/dset-l5789/*/*
+!data/dset-l5789/scene/
+!data/dset-l5789/truth/truth_img/l5_scene_01*
+!data/dset-l5789/truth/truth_gpkg/l5_scene_01*
