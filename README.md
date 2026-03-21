@@ -47,9 +47,11 @@ The dataset structure is analyzed in **Figure 3**, providing a dual-perspective 
     - *Insight:* Comparing the rings reveals sensor characteristics; for instance, Sentinel-2 may have fewer scenes (Inner) but contributes a significant number of pixels (Outer) due to high resolution or larger swath coverage.
 - **(b) Class Balance (Right):** Shows the global ratio between Water and Non-water (Background) pixels, highlighting the class imbalance typical in remote sensing tasks.
 
-<p align="center"> 
-  <img src="figs/dset_stats.png" width="95%" alt="Statistical Overview">
-</p>
+<div style="display: flex; justify-content: center;">
+  <img src="figs/dset_stats_1.png" style="width: 45%;">
+  <img src="figs/dset_stats_2.png" style="width: 45%;">
+</div>
+
 <p align="center">
   <em>Figure 3: (a) Nested donut chart showing pixel contribution (Outer) vs. scene count (Inner); (b) Global water vs. non-water pixel ratio.</em>
 </p>
@@ -57,7 +59,8 @@ The dataset structure is analyzed in **Figure 3**, providing a dual-perspective 
 ### 3. Dataset Generation Workflow
 As illustrated in **Figure 4**, the dataset was constructed through a streamlined three-step pipeline to ensure high quality and accuracy.
 <p align="center"> 
-  <img src="figs/dset_generation_workflow.png" width="95%" alt="Dataset Workflow">
+  <img src="figs/dset_generation_workflow.png"
+  width="95%" alt="Dataset Workflow">
 </p>
 <p align="center">
   <em>Figure 4: The overall workflow of the proposed remote sensing waterbody dataset construction.</em>
