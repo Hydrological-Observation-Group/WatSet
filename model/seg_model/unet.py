@@ -29,7 +29,8 @@ class unet(nn.Module):
         self.up_conv3 = conv3x3_bn_relu(64, 32)
         self.outp = nn.Sequential(
                 nn.Conv2d(32, 1, kernel_size=3, padding=1),
-                nn.Sigmoid()) 
+                nn.Sigmoid()
+                ) 
 
     def forward(self, x):   ## input size: 6x256x256
         ## encoder part
