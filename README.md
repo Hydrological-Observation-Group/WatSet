@@ -71,4 +71,5 @@ As illustrated in **Figure 4**, the dataset was constructed through a streamline
 2. **Deep Learning Preliminary Mapping:** A deep learning model (WatNet) was utilized to automatically generate initial waterbody boundaries, which were then converted from raster to vector format.<br>
 3. **Post-processing & Quality Control:** GIS experts conducted rigorous visual inspection and manual correction on the preliminary vectors to produce the final, highly accurate Ground Truth Labels.
 
-### **---To do**
+### **---To do**    
+1. modify utils/data_loader.py by referring to watnetv2 repo
